@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,26 +10,215 @@
 
     <title>JJM Books</title>
 </head>
+
 <body>
+
     <header>
-       <nav>
-           <ul class="lista">
-               <li><a href="index.html">Home</a></li>
-               <li><a href="">Livros</a></li>
-               <li><a href="">Sobre</a></li>
-               <li><a href="">Login</a></li>
-           </ul>
-       </nav>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Sobre</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Livros
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Home</a></li>
+                                <li><a class="dropdown-item" href="#">Livros</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Login</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled">Login</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+
+
     </header>
+
+
     <main>
+
+
+        <section >
+            <img class="img" src="img/banner.jpg" alt="">
+        </section>
+
+        <h1>Livros</h1>
+
+        <div class="container">
+            <div class="row">
+
+                <div class=" col">
+
+                    <div class="card" style="width: 18rem;">
+                        <img src="img/midsetjpg.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Mindset</h5>
+                            <h6>Carol Dweck</h6>
+                            <p class="card-text">
+                            <p></p>
+
+                            <a href="#" class="btn btn-primary">Saiba Mais</a>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col">
+
+                    <div class="card" style="width: 18rem;">
+                        <img src="img/milagre.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">O Milagre Da Manhã</h5>
+                            <h6></h6>
+                            <p class="card-text"></p>
+                            <a href="#" class="btn btn-primary">Saiba Mais</a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col">
+
+                    <div class="card" style="width: 18rem;">
+                        <img src="img/it.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">It - A Coisa</h5>
+                            <h6>Stephen King</h6>
+                            <p class="card-text"></p>
+                            <a href="#" class="btn btn-primary">Saiba Mais</a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col">
+
+                    <div class="card" style="width: 18rem;">
+                        <img src="img/arte.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">A Sutil Arte De Ligar O Foda-Se</h5>
+                            <h6>Manson,Mark</h6>
+                            <p class="card-text"></p>
+                            <a href="#" class="btn btn-primary">Saiba Mais</a>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="col">
+
+                    <div class="card" style="width: 18rem;">
+                        <img src="img/PaiRico.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Pai Rico, Pai Pobre</h5>
+                            <p class="card-text"></p>
+                            <a href="#" class="btn btn-primary">Saiba Mais</a>
+                        </div>
+                    </div>
+
+                </div>
+
+
+
+                <div class="col">
+
+                    <div class="card" style="width: 18rem;">
+                        <img src="img/ContoAia.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">O Conto da Aia</h5>
+                            <h6>Atwood,Margaret</h6>
+
+                            <p class="card-text"></p>
+
+                            
+                            <a href="#" class="btn btn-primary">Saiba Mais</a>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+
+
+
+     
+
+
+
+
+
+
+
+
+
+          <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    Login
+  </button>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+            <img class="jjm" src="img/jjmr.PNG" alt="">
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <label for="email">email</label>
+          <input class= "email" type="text" name="email" id="">
+        </div>
+        <div class="modal-body">
+            <label for="senha">senha</label>
+          <input class= "senha" type="text" name="senha" id="">
+        </div>
+
+
+
+
+        <div class="modal-footer">
+          <button type="button" class="button">Entrar</button>
+        </div>
+      </div>
+    </div>
+  </div>
 
     </main>
     <section>
 
     </section>
-<footer>
+    <footer>
 
-</footer>
- <script src="bootstrap.min.js"></script>
+    </footer>
+    <script src="bootstrap.min.js"></script>
 </body>
+
 </html>
