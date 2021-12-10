@@ -1,8 +1,56 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 body {
-  background-color: rebeccapurple;
+  height: 100%;
+  scroll-behavior: smooth;
 }
 
 main {
-  background-color: salmon;
+  margin: 4.5rem 2rem 0;
+  height: 150vh;
 }
+main #banner {
+  height: 100vh;
+  background-image: url("../img/frases-do-livro-o-milagre-da-manha.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  background-attachment: fixed;
+  text-align: center;
+}
+main p {
+  font-size: 1.5rem;
+  line-height: 1.5;
+  margin: 0 0 1.5rem;
+  text-align: justify;
+}
+
+#infos {
+  display: flex;
+  gap: 15rem;
+  justify-content: center;
+}
+#infos .box {
+  display: flex;
+  flex-direction: column;
+}
+#infos .box .title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #0051ff;
+}
+#infos .box .title:hover {
+  transform: scale(1.1);
+  color: #f600ff;
+}
+
+iframe {
+  width: 90vw;
+  height: 100vh;
+}
+
 /*# sourceMappingURL=pages.css.map */
