@@ -122,11 +122,23 @@ h1 {
   padding: 10px;
   text-align: center;
   background-color: #3a3838;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .icones {
   width: 40px;
   height: 40px;
   margin: 10px;
+}
+
+.icones:hover {
+  background-color: white;
+  border-radius: 12px;
+}
+
+h5:hover {
+  color: white;
 }
 /*# sourceMappingURL=style.css.map */

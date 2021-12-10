@@ -135,6 +135,7 @@ h1 {
     padding: 10px;
     text-align: center;
     background-color: rgb(58, 56, 56);
+    justify-content: space-between;
 }
 
 .icones {
@@ -142,4 +143,12 @@ h1 {
     height: 40px;
     margin: 10px;
 
+}
+.icones:hover {
+  background-color: white;
+  border-radius: 12px;
+
+}
+h5:hover{
+    color: white;
 }
