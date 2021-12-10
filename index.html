@@ -30,11 +30,6 @@
                         <li class="nav-item">
                             <a class="nav-link" href="#">Sobre</a>
                         </li>
-                        <li>
-                            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                        </li>
-                        Login
-                        </button>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                                 data-bs-toggle="dropdown" aria-expanded="false">
@@ -46,14 +41,43 @@
                                 <li>
                                     <hr class="dropdown-divider">
                                 </li>
-                                <li><a class="dropdown-item" href="#">Login</a></li>
-                                
                             </ul>
-                            </li>
-                        <li class="nav-item">
-                            <a class="nav-link disabled">Login</a>
                         </li>
+
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal">
+                            Login
+                        </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <img class="jjm" src="img/jjmr.PNG" alt="">
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <label for="email">email</label>
+                                        <input class="email" type="text" name="email" id="">
+                                    </div>
+                                    <div class="modal-body">
+                                        <label for="senha">senha</label>
+                                        <input class="senha" type="text" name="senha" id="">
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="button">Entrar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+            
                     </ul>
+
+
                     <form class="d-flex">
                         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
                         <button class="btn btn-outline-success" type="submit">Search</button>
@@ -70,7 +94,7 @@
 
 
         <section>
-            <img class="img" src="img/banner.jpg" alt="">
+            <img class="banner-main" src="img/banner.jpg" alt="">
         </section>
 
         <h1>Livros</h1>
@@ -175,74 +199,75 @@
 
 
 
-        
-
-        <!-- Modal -->
-        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <img class="jjm" src="img/jjmr.PNG" alt="">
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body">
-                        <label for="email">email</label>
-                        <input class="email" type="text" name="email" id="">
-                    </div>
-                    <div class="modal-body">
-                        <label for="senha">senha</label>
-                        <input class="senha" type="text" name="senha" id="">
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="button">Entrar</button>
-                    </div>
-                </div>
-            </div>
-        </div>
 
     </main>
-    <section>
 
-    </section>
+
     <footer>
-        <div class="container">
-            <footer class="py-5">
-                <div class="row">
-                    <div class="col-2">
-                        <h5>Maria Rosa Müller</h5>
-                        <ul class="nav flex-column">
-                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted"></a></li>
-                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
-        
-                        </ul>
-                        </div>
-                        
-                        <div class="col-2">
-                            <h5>Juliane Alves</h5>
-                            <ul class="nav flex-column">
-                                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
-                                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
-                        
-                            </ul>
-                        </div>
-                        
-                        <div class="col-2">
-                            <h5>Jonathas Magalhães</h5>
-                        
-                            <ul class="list-unstyled d-flex">
-                            <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24">
-                                        <use xlink:href="#twitter"></use>
-                                    </svg></a></li>
-                            <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24">
-                                        <use xlink:href="#instagram"></use>
-                                    </svg></a></li>
-                            <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24">
-                                        <use xlink:href="#facebook"></use>
-                                    </svg></a></li>
-                            </ul>
-                            </div>
-    </footer>
-    <script src="bootstrap.min.js"></script>
-    </body>
+        <footer id="rodape">
+            <div class="row">
+                <div class="col-4">
+                    <h5>Maria Rosa Müller</h5>
+
+
+                    <div>
+                        <a href="http://facebook.com/riodejaneiro" target="_blank">
+                            <img src="img/facebookapplication_social_faceboo_2991.png" class="icones">
+                        </a>
+
+                        <a href="http://twitter.com/riodejaneiro" target="_blank">
+                            <img src="img/icone-twitter-ronde-grise.png" class="icones">
+                        </a>
+
+                        <a href="https://www.instagram.com/riotur.rio/" target="_blank">
+                            <img src="img/logo-instagram-.png" class="icones">
+                        </a>
+                    </div>
+
+
+                </div>
+
+                <div class="col-4">
+                    <h5>Juliane Alves</h5>
+                    <div>
+                        <a href="http://facebook.com/riodejaneiro" target="_blank">
+                            <img src="img/facebookapplication_social_faceboo_2991.png" class="icones">
+                        </a>
+
+                        <a href="http://twitter.com/riodejaneiro" target="_blank">
+                            <img src="img/icone-twitter-ronde-grise.png" class="icones">
+                        </a>
+
+                        <a href="https://www.instagram.com/riotur.rio/" target="_blank">
+                            <img src="img/logo-instagram-.png" class="icones">
+                        </a>
+                    </div>
+
+
+                </div>
+
+                <div class="col-4">
+                    <h5>Jonathas Magalhães</h5>
+
+                    <div>
+                        <a href="http://facebook.com/riodejaneiro" target="_blank">
+                            <img src="img/facebookapplication_social_faceboo_2991.png" class="icones">
+                        </a>
+
+                        <a href="http://twitter.com/riodejaneiro" target="_blank">
+                            <img src="img/icone-twitter-ronde-grise.png" class="icones">
+                        </a>
+
+                        <a href="https://www.instagram.com/riotur.rio/" target="_blank">
+                            <img src="img/logo-instagram-.png" class="icones">
+                        </a>
+                    </div>
+
+                </div>
+
+        </footer>
+
+        <script src="bootstrap.min.js"></script>
+</body>
 
 </html>
