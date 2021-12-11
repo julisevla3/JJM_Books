@@ -4,7 +4,9 @@
     box-sizing: border-box;
 }
 
-
+$btn-primary{
+    background-color: yellow;
+}
 
 .modal-body {
     background-color: #0dcaf0;
@@ -38,7 +40,29 @@ header {
     }
 }
 
+.form-control{
+    justify-content: space-between;
+}
+.navbar-nav{
+  
 
+}
+
+// CSS background-attachment Property
+body {
+    background-image: url("img/banner.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100;
+    height: 500px;
+
+  }
+
+
+  .container {
+      padding-top: 250px;
+
+  }
 header ul {
     display         : -webkit-box;
     display         : -ms-flexbox;
@@ -64,6 +88,7 @@ header ul li a {
 header ul li a:hover {
     color: #ff0000;
 }
+
 
 
 .modal-body {
@@ -152,3 +177,6 @@ h1 {
 h5:hover{
     color: white;
 }
+
+// importando Boostrap
+@import "bootstrap.min.css";
