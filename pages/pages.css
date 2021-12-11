@@ -1,7 +1,8 @@
 * {
   padding: 0;
   margin: 0;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 body {
@@ -13,6 +14,7 @@ main {
   margin: 4.5rem 2rem 0;
   height: 150vh;
 }
+
 main #banner {
   height: 100vh;
   background-image: url("../img/frases-do-livro-o-milagre-da-manha.jpg");
@@ -22,6 +24,7 @@ main #banner {
   background-attachment: fixed;
   text-align: center;
 }
+
 main p {
   font-size: 1.5rem;
   line-height: 1.5;
@@ -30,21 +33,34 @@ main p {
 }
 
 #infos {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   gap: 15rem;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
+
 #infos .box {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
+
 #infos .box .title {
   font-size: 1.8rem;
   font-weight: bold;
   color: #0051ff;
 }
+
 #infos .box .title:hover {
-  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
   color: #f600ff;
 }
 
@@ -52,5 +68,4 @@ iframe {
   width: 90vw;
   height: 100vh;
 }
-
 /*# sourceMappingURL=pages.css.map */

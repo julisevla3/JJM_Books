@@ -38,6 +38,19 @@ header {
     }
 }
 
+#banner {
+    background-image: url(img/banner.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: contain;
+    background-position: center;
+    background-attachment: fixed;
+    text-align: center;
+    height: 100vh;  
+  }
+
+
+
 
 header ul {
     display         : -webkit-box;
@@ -148,7 +161,14 @@ h1 {
   background-color: white;
   border-radius: 12px;
 
+
 }
-h5:hover{
+
+h5{
     color: white;
+    transition:.2s ease-in-out;
+}
+
+h5:hover{
+    color:red;
 }
