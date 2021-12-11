@@ -149,13 +149,14 @@ h1 {
   border-radius: 12px;
 }
 
-h5 {
-  color: white;
+.col-4 h5 {
+  color: #a1a1a1;
   -webkit-transition: .2s ease-in-out;
   transition: .2s ease-in-out;
+  cursor: pointer;
 }
 
 h5:hover {
-  color: red;
+  color: white;
 }
 /*# sourceMappingURL=style.css.map */

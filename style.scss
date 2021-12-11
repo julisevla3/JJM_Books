@@ -164,11 +164,12 @@ h1 {
 
 }
 
-h5{
-    color: white;
+.col-4 h5 {
+    color: rgb(161, 161, 161);
     transition:.2s ease-in-out;
+    cursor: pointer;
 }
 
 h5:hover{
-    color:red;
+    color:white;
 }
