@@ -93,6 +93,15 @@ header ul li a:hover {
 
 }
 
+.col{
+    transition: .5s ease-in-out;
+    cursor: pointer;
+}
+.col:hover{
+    transform: scale(1.05);
+}
+
+
 .modal-body {
     border-radius: 12px;
 }
