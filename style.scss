@@ -39,15 +39,15 @@ header {
 }
 
 #banner {
-    background-image: url(img/banner.jpg);
-    background-repeat: no-repeat;
+    background-image     : url(img/banner.jpg);
+    background-repeat    : no-repeat;
     background-attachment: fixed;
-    background-size: contain;
-    background-position: center;
+    background-size      : contain;
+    background-position  : center;
     background-attachment: fixed;
-    text-align: center;
-    height: 100vh;  
-  }
+    text-align           : center;
+    height               : 100vh;
+}
 
 
 
@@ -78,6 +78,20 @@ header ul li a:hover {
     color: #ff0000;
 }
 
+
+.button-banner {
+    border       : 1px solid #33BB69;
+    box-sizing   : border-box;
+    color        : #33BB69;
+    width        : 322px;
+    height       : 71px;
+    left         : 559px;
+    top          : 552px;
+    border-radius: 12px;
+    background-color:transparent;
+
+
+}
 
 .modal-body {
     border-radius: 12px;
@@ -134,7 +148,9 @@ h1 {
 }
 
 
-
+.col {
+    padding: 20px 20px;
+}
 
 
 .list-unstyled {
@@ -145,32 +161,41 @@ h1 {
 
 
 #rodape {
-    padding: 10px;
-    text-align: center;
+    padding         : 10px;
+    text-align      : center;
     background-color: rgb(58, 56, 56);
-    justify-content: space-between;
+    justify-content : space-between;
 }
 
 .icones {
-    width: 40px;
-    height: 40px;
-    margin: 10px;
-    transition:.2s ease-in-out;
+    width     : 40px;
+    height    : 40px;
+    margin    : 10px;
+    transition: .2s ease-in-out;
 
 }
+
 .icones:hover {
-  background-color: white;
-  border-radius: 12px;
+    background-color: white;
+    border-radius   : 12px;
 
 
 }
 
 .col-4 h5 {
-    color: rgb(161, 161, 161);
-    transition:.2s ease-in-out;
-    cursor: pointer;
+    color     : rgb(161, 161, 161);
+    transition: .2s ease-in-out;
+    cursor    : pointer;
 }
 
-h5:hover{
-    color:white;
+h5:hover {
+    color: white;
 }
+
+.btn-primary {
+    color           : #fff;
+    background-color: #fd0-99;
+    border-color    : #fd0da1;
+}
+
+@import "bootstrap.min.css";

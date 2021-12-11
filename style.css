@@ -1,3 +1,4 @@
+@import url(c:\Users\julis\Documents\DH\Checkpoint_3\JJM_Books\bootstrap.min.css);
 * {
   margin: 0;
   padding: 0;
@@ -76,6 +77,19 @@ header ul li a:hover {
   color: #ff0000;
 }
 
+.button-banner {
+  border: 1px solid #33BB69;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #33BB69;
+  width: 322px;
+  height: 71px;
+  left: 559px;
+  top: 552px;
+  border-radius: 12px;
+  background-color: transparent;
+}
+
 .modal-body {
   border-radius: 12px;
 }
@@ -124,6 +138,10 @@ h1 {
   font-size: 80px;
 }
 
+.col {
+  padding: 20px 20px;
+}
+
 .list-unstyled {
   padding-left: 0;
   list-style: none;
@@ -160,5 +178,11 @@ h1 {
 
 h5:hover {
   color: white;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #fd0-99;
+  border-color: #fd0da1;
 }
 /*# sourceMappingURL=style.css.map */
