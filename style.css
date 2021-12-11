@@ -51,6 +51,11 @@ header ul li a:hover {
   height: 100vh;
 }
 
+.navbar-logo img {
+  height: auto;
+  border-radius: 42px;
+}
+
 header ul {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -187,7 +192,7 @@ h1 {
   cursor: pointer;
 }
 
-h5:hover {
+.col-4 h5:hover {
   color: white;
 }
 
