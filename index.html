@@ -13,8 +13,11 @@
 
 <body>
 
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <header >
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+            <a class="navbar-logo" href="http://">
+                <img src="img/logo_header.png" alt="logo JJM">
+            </a>
             <div class="container-fluid">
                 <a class="navbar-brand" href="#"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -25,19 +28,25 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            <a class="nav-link active" aria-current="page" href="#banner">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Sobre</a>
+                            <a class="nav-link" href="#rodape">Sobre</a>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            <a class="nav-link dropdown-toggle" href="#livros" id="navbarDropdown" role="button"
                                 data-bs-toggle="dropdown" aria-expanded="false">
                                 Livros
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="#">Home</a></li>
-                                <li><a class="dropdown-item" href="#">Livros</a></li>
+                                <li><a class="dropdown-item" href="#mind">Mindset</a></li>
+                                <li><a class="dropdown-item" href="#milagre">O Milagre Da Manhã</a></li>
+                                <li><a class="dropdown-item" href="#coisa">It - A Coisa</a></li>
+                                <li><a class="dropdown-item" href="#arte">A Sutil Arte De Ligar O Foda-Se</a></li>
+                                <li><a class="dropdown-item" href="#rico">Pai Rico, Pai Pobre</a></li>
+                                <li><a class="dropdown-item" href="#aia">O Conto da Aia</a></li>
+
+
                                 <li>
                                     <hr class="dropdown-divider">
                                 </li>
@@ -78,17 +87,17 @@
                     </ul>
 
 
-                    <form class="d-flex">
-                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-success" type="submit">Search</button>
-                    </form>
                 </div>
             </div>
         </nav>
 
 
     </header>
+
     <section id="banner">
+        <h1>JJM Books</h1>
+        <h2>Confira a maior coletânea de Livros que a JJM Books tem a te oferecer</h2>
+        <button class="button-banner">Explorar</button>
 
     </section>
 
@@ -98,12 +107,12 @@
       
         <h1>Livros</h1>
 
-        <div class="container">
+        <div class="container" >
             <div class="row">
 
-                <div class=" col">
+                <div class=" col" id="mind">
 
-                    <div class="card" style="width: 18rem;">
+                    <div class="card" style="width: 18rem;" >
                         <img src="img/midsetjpg.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Mindset</h5>
@@ -111,19 +120,19 @@
                             <p class="card-text">
                             <p></p>
 
-                            <a href="#" class="btn btn-primary">Saiba Mais</a>
+                            <a href="pages/mindset.html" class="btn btn-primary">Saiba Mais</a>
                         </div>
 
                     </div>
                 </div>
 
-                <div class="col">
+                <div class="col" id="milagre">
 
                     <div class="card" style="width: 18rem;">
                         <img src="img/milagre.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">O Milagre Da Manhã</h5>
-                            <h6></h6>
+                            <h6>Elrod, Hal</h6>
                             <p class="card-text"></p>
                             <a href="pages/milagre.html" class="btn btn-primary">Saiba Mais</a>
                         </div>
@@ -131,7 +140,7 @@
 
                 </div>
 
-                <div class="col">
+                <div class="col" id="coisa">
 
                     <div class="card" style="width: 18rem;">
                         <img src="img/it.jpg" class="card-img-top" alt="...">
@@ -139,13 +148,13 @@
                             <h5 class="card-title">It - A Coisa</h5>
                             <h6>Stephen King</h6>
                             <p class="card-text"></p>
-                            <a href="#" class="btn btn-primary">Saiba Mais</a>
+                            <a href="pages/it.html" class="btn btn-primary">Saiba Mais</a>
                         </div>
                     </div>
                 </div>
 
 
-                <div class="col">
+                <div class="col" id="arte">
 
                     <div class="card" style="width: 18rem;">
                         <img src="img/arte.jpg" class="card-img-top" alt="...">
@@ -153,22 +162,22 @@
                             <h5 class="card-title">A Sutil Arte De Ligar O Foda-Se</h5>
                             <h6>Manson,Mark</h6>
                             <p class="card-text"></p>
-                            <a href="#" class="btn btn-primary">Saiba Mais</a>
+                            <a href="pages/sutilarte.html" class="btn btn-primary">Saiba Mais</a>
                         </div>
                     </div>
                 </div>
 
 
 
-                <div class="col">
+                <div class="col" id="rico">
 
-                    <div class="card" style="width: 18rem;">
+                    <div class="card" style="width: 18rem;" >
                         <img src="img/PaiRico.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Pai Rico, Pai Pobre</h5>
                             <h6>Kiyosaki,Robert T.</h6>
                             <p class="card-text"></p>
-                            <a href="#" class="btn btn-primary">Saiba Mais</a>
+                            <a href="pages/pairico.html" class="btn btn-primary">Saiba Mais</a>
                         </div>
                     </div>
 
@@ -176,7 +185,7 @@
 
 
 
-                <div class="col">
+                <div class="col" id="aia">
 
                     <div class="card" style="width: 18rem;">
                         <img src="img/aia.jpg" class="card-img-top" alt="...">
@@ -187,7 +196,7 @@
                             <p class="card-text"></p>
 
 
-                            <a href="#" class="btn btn-primary">Saiba Mais</a>
+                            <a href="pages/contoaia.html" class="btn btn-primary">Saiba Mais</a>
                         </div>
                     </div>
                 </div>

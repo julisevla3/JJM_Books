@@ -1,8 +1,7 @@
 * {
   padding: 0;
   margin: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
@@ -14,17 +13,60 @@ main {
   margin: 4.5rem 2rem 0;
   height: 150vh;
 }
-
-main #banner {
-  height: 100vh;
+main .banner #milagre {
   background-image: url("../img/frases-do-livro-o-milagre-da-manha.jpg");
+  height: 100vh;
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
   background-attachment: fixed;
   text-align: center;
 }
-
+main .banner #mindset {
+  background-image: url("../img/mindset.jpg");
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  background-attachment: fixed;
+  text-align: center;
+}
+main .banner #it {
+  background-image: url("../img/itg.jpg");
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  background-attachment: fixed;
+  text-align: center;
+}
+main .banner #pai {
+  background-image: url("../img/pai.jpg");
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  background-attachment: fixed;
+  text-align: center;
+}
+main .banner #sutil {
+  background-image: url("../img/sutil.png");
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  background-attachment: fixed;
+  text-align: center;
+}
+main .banner #aia {
+  background-image: url("../img/aia.png");
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  background-attachment: fixed;
+  text-align: center;
+}
 main p {
   font-size: 1.5rem;
   line-height: 1.5;
@@ -33,34 +75,21 @@ main p {
 }
 
 #infos {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   gap: 15rem;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
 }
-
 #infos .box {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
 }
-
 #infos .box .title {
   font-size: 1.8rem;
   font-weight: bold;
   color: #0051ff;
 }
-
 #infos .box .title:hover {
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
+  transform: scale(1.1);
   color: #f600ff;
 }
 
@@ -68,4 +97,5 @@ iframe {
   width: 90vw;
   height: 100vh;
 }
+
 /*# sourceMappingURL=pages.css.map */
