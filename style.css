@@ -113,6 +113,7 @@ header ul li a:hover {
   border-radius: 12px;
   background-color: rgba(24, 221, 24, 0.226);
   margin: 42px;
+  text-decoration: none;
 }
 
 .col {
