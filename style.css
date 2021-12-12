@@ -15,6 +15,14 @@ body, html {
   background-color: #0dcaf0;
 }
 
+.modal-backdrop {
+  position: relative !important;
+}
+
+#modal-relative {
+  position: relative;
+}
+
 header {
   background: #0dcaf0;
 }
@@ -120,6 +128,11 @@ header ul li a:hover {
 .button-banner:hover {
   background-color: rgba(25, 110, 25, 0.685);
   border-radius: 12px;
+}
+
+.content {
+  text-decoration: none;
+  color: white;
 }
 
 .col {
