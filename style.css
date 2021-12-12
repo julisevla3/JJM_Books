@@ -6,6 +6,11 @@
           box-sizing: border-box;
 }
 
+body, html {
+  height: 100%;
+  scroll-behavior: smooth;
+}
+
 .modal-body {
   background-color: #0dcaf0;
 }
@@ -44,11 +49,21 @@ header ul li a:hover {
   background-image: url(img/banner.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: contain;
+  background-size: cover;
   background-position: center;
   background-attachment: fixed;
   text-align: center;
   height: 100vh;
+}
+
+#banner h1 {
+  padding-top: 35vh;
+  color: #BB2D3B;
+  font-size: 2rem;
+}
+
+#banner h2 {
+  margin: 42px 42px;
 }
 
 .navbar-logo img {
@@ -97,6 +112,7 @@ header ul li a:hover {
   top: 552px;
   border-radius: 12px;
   background-color: transparent;
+  margin: 42px;
 }
 
 .col {
