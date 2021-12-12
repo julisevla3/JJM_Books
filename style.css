@@ -1,4 +1,4 @@
-@import url(c:\Users\julis\Documents\DH\Checkpoint_3\JJM_Books\bootstrap.min.css);
+@import url(c:\Dev Projects\JJM_Books\bootstrap.min.css);
 * {
   margin: 0;
   padding: 0;
@@ -58,7 +58,8 @@ header ul li a:hover {
 
 #banner h1 {
   padding-top: 25vh;
-  font-size: 2rem;
+  font-size: 4rem;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 #banner h2 {
@@ -101,7 +102,7 @@ header ul li a:hover {
 }
 
 .button-banner {
-  border: 1px solid #33BB69;
+  border: 1px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   font-size: 24px;
@@ -111,9 +112,14 @@ header ul li a:hover {
   left: 559px;
   top: 552px;
   border-radius: 12px;
-  background-color: rgba(24, 221, 24, 0.226);
+  background-color: rgba(32, 136, 32, 0.603);
   margin: 42px;
   text-decoration: none;
+}
+
+.button-banner:hover {
+  background-color: rgba(25, 110, 25, 0.685);
+  border-radius: 12px;
 }
 
 .col {
@@ -150,7 +156,7 @@ header ul li a:hover {
 }
 
 .button {
-  background-color: #33BB69;
+  background-color: #21a054;
   color: white;
   border-radius: 12px;
   width: 100%;
@@ -221,7 +227,6 @@ h1 {
 
 .btn-primary {
   color: #fff;
-  background-color: #fd0-99;
   border-color: #fd0da1;
 }
 /*# sourceMappingURL=style.css.map */
