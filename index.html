@@ -3,277 +3,270 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="bootstrap.min.css">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <link href="style.css" rel="stylesheet">
+    <link href="bootstrap.min.css" rel="stylesheet">
 
     <title>JJM Books</title>
 </head>
 
 <body>
 
-    <header >
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-logo" href="http://">
-                <img src="img/logo_header.png" alt="logo JJM">
-            </a>
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#"></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Sobre</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
-                                Livros
-                            </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="#">Home</a></li>
-                                <li><a class="dropdown-item" href="#">Livros</a></li>
-                                <li>
-                                    <hr class="dropdown-divider">
-                                </li>
-                            </ul>
-                        </li>
+<header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-logo" href="index.html">
+            <img alt="logo JJM" src="img/logo_header.png">
+        </a>
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"></a>
+            <button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"
+                    class="navbar-toggler" data-bs-target="#navbarSupportedContent"
+                    data-bs-toggle="collapse" type="button">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a aria-current="page" class="nav-link active" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Sobre</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a aria-expanded="false" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#"
+                           id="navbarDropdown" role="button">
+                            Livros
+                        </a>
+                        <ul aria-labelledby="navbarDropdown" class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Home</a></li>
+                            <li><a class="dropdown-item" href="#">Livros</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                        </ul>
+                    </li>
 
-                        <!-- Button trigger modal -->
-                        <button type="button" class="btn btn-primary" data-bs-toggle="modal"
-                            data-bs-target="#exampleModal">
-                            Login
-                        </button>
+                    <!-- Button trigger modal -->
+                    <button class="btn btn-primary" data-bs-target="#exampleModal" data-bs-toggle="modal"
+                            type="button">
+                        Login
+                    </button>
 
-                        <!-- Modal -->
-                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
-                            aria-hidden="true">
-                            <div class="modal-dialog">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <img class="jjm" src="img/jjmr.PNG" alt="">
-                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                            aria-label="Close"></button>
-                                    </div>
-                                    <div class="modal-body">
-                                        <label for="email">email</label>
-                                        <input class="email" type="text" name="email" id="">
-                                    </div>
-                                    <div class="modal-body">
-                                        <label for="senha">senha</label>
-                                        <input class="senha" type="text" name="senha" id="">
-                                    </div>
-                                    <div class="modal-footer">
-                                        <button type="button" class="button">Entrar</button>
-                                    </div>
+                    <!-- Modal -->
+                    <div aria-hidden="true" aria-labelledby="exampleModalLabel" class="modal fade" id="exampleModal"
+                         tabindex="-1">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <img alt="" class="jjm" src="img/jjmr.PNG">
+                                    <button aria-label="Close" class="btn-close" data-bs-dismiss="modal"
+                                            type="button"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <label for="email">email</label>
+                                    <input class="email" id="" name="email" type="text">
+                                </div>
+                                <div class="modal-body">
+                                    <label for="senha">senha</label>
+                                    <input class="senha" id="" name="senha" type="text">
+                                </div>
+                                <div class="modal-footer">
+                                    <button class="button" type="button">Entrar</button>
                                 </div>
                             </div>
                         </div>
-            
-                    </ul>
-
-
-                    <form class="d-flex">
-                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-success" type="submit">Search</button>
-                    </form>
-                </div>
-            </div>
-        </nav>
-
-
-    </header>
-
-    <section id="banner">
-        <h1>JJM Books</h1>
-        <h2>Confira a maior coletânea de Livros que a JJM Books tem a te oferecer</h2>
-        <button class="button-banner">Explorar</button>
-
-    </section>
-
-    <main>
-
-
-      
-        <h1>Livros</h1>
-
-        <div class="container">
-            <div class="row">
-
-                <div class=" col">
-
-                    <div class="card" style="width: 18rem;">
-                        <img src="img/midsetjpg.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Mindset</h5>
-                            <h6>Carol Dweck</h6>
-                            <p class="card-text">
-                            <p></p>
-
-                            <a href="#" class="btn btn-primary">Saiba Mais</a>
-                        </div>
-
-                    </div>
-                </div>
-
-                <div class="col">
-
-                    <div class="card" style="width: 18rem;">
-                        <img src="img/milagre.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">O Milagre Da Manhã</h5>
-                            <h6>Elrod, Hal</h6>
-                            <p class="card-text"></p>
-                            <a href="pages/milagre.html" class="btn btn-primary">Saiba Mais</a>
-                        </div>
                     </div>
 
-                </div>
-
-                <div class="col">
-
-                    <div class="card" style="width: 18rem;">
-                        <img src="img/it.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">It - A Coisa</h5>
-                            <h6>Stephen King</h6>
-                            <p class="card-text"></p>
-                            <a href="#" class="btn btn-primary">Saiba Mais</a>
-                        </div>
-                    </div>
-                </div>
-
-
-                <div class="col">
-
-                    <div class="card" style="width: 18rem;">
-                        <img src="img/arte.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">A Sutil Arte De Ligar O Foda-Se</h5>
-                            <h6>Manson,Mark</h6>
-                            <p class="card-text"></p>
-                            <a href="#" class="btn btn-primary">Saiba Mais</a>
-                        </div>
-                    </div>
-                </div>
-
-
-
-                <div class="col">
-
-                    <div class="card" style="width: 18rem;">
-                        <img src="img/PaiRico.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Pai Rico, Pai Pobre</h5>
-                            <h6>Kiyosaki,Robert T.</h6>
-                            <p class="card-text"></p>
-                            <a href="#" class="btn btn-primary">Saiba Mais</a>
-                        </div>
-                    </div>
-
-                </div>
-
-
-
-                <div class="col">
-
-                    <div class="card" style="width: 18rem;">
-                        <img src="img/aia.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">O Conto da Aia</h5>
-                            <h6>Atwood,Margaret</h6>
-
-                            <p class="card-text"></p>
-
-
-                            <a href="#" class="btn btn-primary">Saiba Mais</a>
-                        </div>
-                    </div>
-                </div>
-
-
+                </ul>
             </div>
         </div>
+    </nav>
 
 
+</header>
+
+<section id="banner">
+    <h1>JJM Books</h1>
+    <h2>Confira a maior coletânea de Livros que a JJM Books tem a te oferecer</h2>
+    <button class="button-banner">Explorar</button>
+
+</section>
+
+<main>
 
 
-    </main>
+    <h1>Livros</h1>
 
+    <div class="container">
+        <div class="row">
 
-    <footer>
-        <footer id="rodape">
-            <div class="row">
-                <div class="col-4">
-                    <h5>Maria Rosa Müller</h5>
+            <div class=" col">
 
+                <div class="card" style="width: 18rem;">
+                    <img alt="..." class="card-img-top" src="img/midsetjpg.jpg">
+                    <div class="card-body">
+                        <h5 class="card-title">Mindset</h5>
+                        <h6>Carol Dweck</h6>
+                        <p class="card-text">
+                        <p></p>
 
-                    <div>
-                        <a href="http://facebook.com/riodejaneiro" target="_blank">
-                            <img src="img/facebookapplication_social_faceboo_2991.png" class="icones">
-                        </a>
-
-                        <a href="http://twitter.com/riodejaneiro" target="_blank">
-                            <img src="img/icone-twitter-ronde-grise.png" class="icones">
-                        </a>
-
-                        <a href="https://www.instagram.com/riotur.rio/" target="_blank">
-                            <img src="img/logo-instagram-.png" class="icones">
-                        </a>
-                    </div>
-
-
-                </div>
-
-                <div class="col-4">
-                    <h5>Juliane Alves</h5>
-                    <div>
-                        <a href="http://facebook.com/riodejaneiro" target="_blank">
-                            <img src="img/facebookapplication_social_faceboo_2991.png" class="icones">
-                        </a>
-
-                        <a href="http://twitter.com/riodejaneiro" target="_blank">
-                            <img src="img/icone-twitter-ronde-grise.png" class="icones">
-                        </a>
-
-                        <a href="https://www.instagram.com/riotur.rio/" target="_blank">
-                            <img src="img/logo-instagram-.png" class="icones">
-                        </a>
-                    </div>
-
-
-                </div>
-
-                <div class="col-4">
-                    <h5>Jonathas Magalhães</h5>
-
-                    <div>
-                        <a href="http://facebook.com/riodejaneiro" target="_blank">
-                            <img src="img/facebookapplication_social_faceboo_2991.png" class="icones">
-                        </a>
-
-                        <a href="http://twitter.com/riodejaneiro" target="_blank">
-                            <img src="img/icone-twitter-ronde-grise.png" class="icones">
-                        </a>
-
-                        <a href="https://www.instagram.com/riotur.rio/" target="_blank">
-                            <img src="img/logo-instagram-.png" class="icones">
-                        </a>
+                        <a class="btn btn-primary" href="pages/mindset.html">Saiba Mais</a>
                     </div>
 
                 </div>
+            </div>
 
-        </footer>
+            <div class="col">
 
-        <script src="bootstrap.min.js"></script>
+                <div class="card" style="width: 18rem;">
+                    <img alt="..." class="card-img-top" src="img/milagre.jpg">
+                    <div class="card-body">
+                        <h5 class="card-title">O Milagre Da Manhã</h5>
+                        <h6>Elrod, Hal</h6>
+                        <p class="card-text"></p>
+                        <a class="btn btn-primary" href="pages/milagre.html">Saiba Mais</a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col">
+
+                <div class="card" style="width: 18rem;">
+                    <img alt="..." class="card-img-top" src="img/it.jpg">
+                    <div class="card-body">
+                        <h5 class="card-title">It - A Coisa</h5>
+                        <h6>Stephen King</h6>
+                        <p class="card-text"></p>
+                        <a class="btn btn-primary" href="pages/it.html">Saiba Mais</a>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col">
+
+                <div class="card" style="width: 18rem;">
+                    <img alt="..." class="card-img-top" src="img/arte.jpg">
+                    <div class="card-body">
+                        <h5 class="card-title">A Sutil Arte De Ligar O Foda-Se</h5>
+                        <h6>Manson,Mark</h6>
+                        <p class="card-text"></p>
+                        <a class="btn btn-primary" href="pages/sutilarte.html">Saiba Mais</a>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col">
+
+                <div class="card" style="width: 18rem;">
+                    <img alt="..." class="card-img-top" src="img/PaiRico.jpg">
+                    <div class="card-body">
+                        <h5 class="card-title">Pai Rico, Pai Pobre</h5>
+                        <h6>Kiyosaki,Robert T.</h6>
+                        <p class="card-text"></p>
+                        <a class="btn btn-primary" href="pages/pairico.html">Saiba Mais</a>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="col">
+
+                <div class="card" style="width: 18rem;">
+                    <img alt="..." class="card-img-top" src="img/aia.jpg">
+                    <div class="card-body">
+                        <h5 class="card-title">O Conto da Aia</h5>
+                        <h6>Atwood,Margaret</h6>
+
+                        <p class="card-text"></p>
+
+
+                        <a class="btn btn-primary" href="pages/contoaia.html">Saiba Mais</a>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+
+</main>
+
+
+<footer id="rodape">
+    <div class="row">
+        <div class="col-4">
+            <h5>Maria Rosa Müller</h5>
+
+
+            <div>
+                <a href="http://facebook.com/riodejaneiro" target="_blank">
+                    <img class="icones" src="img/facebookapplication_social_faceboo_2991.png">
+                </a>
+
+                <a href="http://twitter.com/riodejaneiro" target="_blank">
+                    <img class="icones" src="img/icone-twitter-ronde-grise.png">
+                </a>
+
+                <a href="https://www.instagram.com/riotur.rio/" target="_blank">
+                    <img class="icones" src="img/logo-instagram-.png">
+                </a>
+            </div>
+
+
+        </div>
+
+        <div class="col-4">
+            <h5>Juliane Alves</h5>
+            <div>
+                <a href="http://facebook.com/riodejaneiro" target="_blank">
+                    <img class="icones" src="img/facebookapplication_social_faceboo_2991.png">
+                </a>
+
+                <a href="http://twitter.com/riodejaneiro" target="_blank">
+                    <img class="icones" src="img/icone-twitter-ronde-grise.png">
+                </a>
+
+                <a href="https://www.instagram.com/riotur.rio/" target="_blank">
+                    <img class="icones" src="img/logo-instagram-.png">
+                </a>
+            </div>
+
+
+        </div>
+
+        <div class="col-4">
+            <h5>Jonathas Magalhães</h5>
+
+            <div>
+                <a href="http://facebook.com/riodejaneiro" target="_blank">
+                    <img class="icones" src="img/facebookapplication_social_faceboo_2991.png">
+                </a>
+
+                <a href="http://twitter.com/riodejaneiro" target="_blank">
+                    <img class="icones" src="img/icone-twitter-ronde-grise.png">
+                </a>
+
+                <a href="https://www.instagram.com/riotur.rio/" target="_blank">
+                    <img class="icones" src="img/logo-instagram-.png">
+                </a>
+            </div>
+
+        </div>
+    </div>
+    <div class="text-center p-3" style="color: white">
+        © 2021 Copyright: Desenvolvido para o Checkpoint 3
+
+    </div>
+
+</footer>
+
+<script src="bootstrap.min.js"></script>
 </body>
 
 </html>
