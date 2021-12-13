@@ -297,7 +297,15 @@ h1 {
 }
 
 .btn-primary {
-  color: #fff;
-  border-color: #fd0da1;
+  border-color: #fd0 !important;
+  background-color: #fd0 !important;
+  height: 42px;
+  margin-top: 15px;
+}
+
+#primary-btn {
+  padding: 0.6rem 1.3rem 0.8rem 1.4rem;
+  text-align: center;
+  display: block;
 }
 /*# sourceMappingURL=style.css.map */
