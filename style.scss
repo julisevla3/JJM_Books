@@ -245,7 +245,7 @@ html {
 @media(max-width: 360px) {
     #pezinho{
         display: flex;
-        flex-direction: length;
+        flex-direction: column;
         flex-wrap: wrap;
     }
 }
@@ -298,3 +298,5 @@ html {
         color       : #fff;
         border-color: #fd0da1;
     }
+
+    
