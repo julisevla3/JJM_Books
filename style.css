@@ -6,7 +6,8 @@
           box-sizing: border-box;
 }
 
-body, html {
+body,
+html {
   height: 100%;
   scroll-behavior: smooth;
 }
@@ -166,6 +167,7 @@ header ul li a:hover {
 
 .jjm {
   border-radius: 24px;
+  vertical-align: middle;
 }
 
 .button {
