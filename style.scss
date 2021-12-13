@@ -122,8 +122,7 @@ html {
         border          : 1px;
         box-sizing      : border-box;
         font-size       : 24px;
-        color           : white;
-        width           : 322px;
+       width           : 322px;
         height          : 71px;
         left            : 559px;
         top             : 552px;
@@ -138,12 +137,17 @@ html {
     .button-banner:hover {
         background-color: rgba(25, 110, 25, 0.685);
         border-radius   : 12px;
+      
 
     }
 
     .content {
         text-decoration: none;
-        color          : white;
+        color: white;
+    }
+    .content:hover {
+        text-decoration: none;
+        color: rgba(245, 245, 245, 0.835);
     }
 
     .col {
