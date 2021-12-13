@@ -69,6 +69,10 @@ main .banner #aia {
   text-align: center;
 }
 
+main .modal-backdrop {
+  position: relative !important;
+}
+
 main p {
   font-size: 1.5rem;
   line-height: 1.5;

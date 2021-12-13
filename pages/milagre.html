@@ -10,9 +10,11 @@
     <link href="bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
-<header>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+            <a class="navbar-logo" href="http://">
+                <img src="../img/logo_header.png" alt="logo JJM">
+            </a>
             <div class="container-fluid">
                 <a class="navbar-brand" href="#"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -23,19 +25,25 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            <a class="nav-link active" aria-current="page" href="#banner">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Sobre</a>
+                            <a class="nav-link" href="#rodape">Sobre</a>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            <a class="nav-link dropdown-toggle" href="" id="navbarDropdown" role="button"
                                 data-bs-toggle="dropdown" aria-expanded="false">
                                 Livros
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="#">Home</a></li>
-                                <li><a class="dropdown-item" href="#">Livros</a></li>
+                                <li><a target="_blank" class="dropdown-item" href="../pages/mindset.html">Mindset</a></li>
+                                <li><a target="_blank" class="dropdown-item" href="../pages/milagre.html">O Milagre Da Manhã</a></li>
+                                <li><a  target="_blank"class="dropdown-item" href="../pages/it.html">It - A Coisa</a></li>
+                                <li><a  target="_blank"class="dropdown-item" href="../pages/sutilarte.html">A Sutil Arte De Ligar O Foda-Se</a></li>
+                                <li><a  target="_blank"class="dropdown-item" href="../pages/pairico.html">Pai Rico, Pai Pobre</a></li>
+                                <li><a target="_blank" class="dropdown-item" href="../pages/contoaia.html">O Conto da Aia</a></li>
+
+
                                 <li>
                                     <hr class="dropdown-divider">
                                 </li>
@@ -44,28 +52,28 @@
 
                         <!-- Button trigger modal -->
                         <button type="button" class="btn btn-primary" data-bs-toggle="modal"
-                            data-bs-target="#exampleModal">
+                            data-bs-target="#exampleModal" id="modal-relative">
                             Login
                         </button>
 
                         <!-- Modal -->
-                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        <div class="modal fade" id="exampleModal"  id="modal-relative" tabindex="-1" aria-labelledby="exampleModalLabel"
                             aria-hidden="true">
-                            <div class="modal-dialog">
+                            <div class="modal-dialog" id="modal-relative" >
                                 <div class="modal-content">
                                     <div class="modal-header">
-                                        <img class="jjm" src="img/jjmr.PNG" alt="">
+                                        <img class="jjm" src="../img/jjmr.PNG" alt="">
                                         <button type="button" class="btn-close" data-bs-dismiss="modal"
                                             aria-label="Close"></button>
                                     </div>
-                                    <div class="modal-body">
+                                    <div class="modal-body" id="modal-relative">
                                         <label for="email">email</label>
-                                        <input class="email" type="text" name="email" id="">
+                                        <input class="email" type="email" name="email" id="">
                                     </div>
-                                    <div class="modal-body">
+                                    <form class="modal-body">
                                         <label for="senha">senha</label>
-                                        <input class="senha" type="text" name="senha" id="">
-                                    </div>
+                                        <input class="senha" type="password" name="senha" id="">
+                                    </form>
                                     <div class="modal-footer">
                                         <button type="button" class="button">Entrar</button>
                                     </div>
@@ -76,10 +84,6 @@
                     </ul>
 
 
-                    <form class="d-flex">
-                        <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Search">
-                        <button class="btn btn-outline-success" type="submit">Pesquisar</button>
-                    </form>
                 </div>
             </div>
         </nav>
@@ -87,7 +91,6 @@
 
     </header>
 
-</header>
 <main>
     <section class="banner">
         <div id="milagre"></div>

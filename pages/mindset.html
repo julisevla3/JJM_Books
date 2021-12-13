@@ -10,76 +10,86 @@
     <link href="bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
-<header>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-logo" href="../index.html">
-            <img alt="logo JJM" src="../img/jjmr.PNG">
-        </a>
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#"></a>
-            <button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"
-                    class="navbar-toggler" data-bs-target="#navbarSupportedContent"
-                    data-bs-toggle="collapse" type="button">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a aria-current="page" class="nav-link active" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Sobre</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a aria-expanded="false" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#"
-                           id="navbarDropdown" role="button">
-                            Livros
-                        </a>
-                        <ul aria-labelledby="navbarDropdown" class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Home</a></li>
-                            <li><a class="dropdown-item" href="#">Livros</a></li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
-                        </ul>
-                    </li>
+    <header >
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+            <a class="navbar-logo" href="http://">
+                <img src="../img/logo_header.png" alt="logo JJM">
+            </a>
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#banner">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#rodape">Sobre</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Livros
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a target="_blank" class="dropdown-item" href="../pages/mindset.html">Mindset</a></li>
+                                <li><a target="_blank" class="dropdown-item" href="../pages/milagre.html">O Milagre Da Manhã</a></li>
+                                <li><a  target="_blank"class="dropdown-item" href="../pages/it.html">It - A Coisa</a></li>
+                                <li><a  target="_blank"class="dropdown-item" href="../pages/sutilarte.html">A Sutil Arte De Ligar O Foda-Se</a></li>
+                                <li><a  target="_blank"class="dropdown-item" href="../pages/pairico.html">Pai Rico, Pai Pobre</a></li>
+                                <li><a target="_blank" class="dropdown-item" href="../pages/contoaia.html">O Conto da Aia</a></li>
 
-                    <!-- Button trigger modal -->
-                    <button class="btn btn-primary" data-bs-target="#exampleModal" data-bs-toggle="modal"
-                            type="button">
-                        Login
-                    </button>
 
-                    <!-- Modal -->
-                    <div aria-hidden="true" aria-labelledby="exampleModalLabel" class="modal fade" id="exampleModal"
-                         tabindex="-1">
-                        <div class="modal-dialog">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <img alt="" class="jjm" src="../img/jjmr.PNG">
-                                    <button aria-label="Close" class="btn-close" data-bs-dismiss="modal"
-                                            type="button"></button>
-                                </div>
-                                <div class="modal-body">
-                                    <label for="email">email</label>
-                                    <input class="email" id="" name="email" type="text">
-                                </div>
-                                <div class="modal-body">
-                                    <label for="senha">senha</label>
-                                    <input class="senha" id="" name="senha" type="text">
-                                </div>
-                                <div class="modal-footer">
-                                    <button class="button" type="button">Entrar</button>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                            </ul>
+                        </li>
+
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal" id="modal-relative">
+                            Login
+                        </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal"  id="modal-relative" tabindex="-1" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog" id="modal-relative" >
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <img class="jjm" src="../img/jjmr.PNG" alt="">
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body" id="modal-relative">
+                                        <label for="email">email</label>
+                                        <input class="email" type="email" name="email" id="">
+                                    </div>
+                                    <form class="modal-body">
+                                        <label for="senha">senha</label>
+                                        <input class="senha" type="password" name="senha" id="">
+                                    </form>
+                                    <div class="modal-footer">
+                                        <button type="button" class="button">Entrar</button>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
+            
+                    </ul>
 
-                </ul>
+
+                </div>
             </div>
-        </div>
-    </nav>
-</header>
+        </nav>
+
+
+    </header>
 <main>
     <section class="banner">
         <div id="mindset"></div>
