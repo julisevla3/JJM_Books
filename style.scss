@@ -9,7 +9,15 @@ html {
     height         : 100%;
     scroll-behavior: smooth;
 }
-
+@media (max-width: 360px) {
+  #pezinho {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+}
 
 #modal-relative{
     position: relative;
