@@ -69,6 +69,11 @@ main {
   margin: 4.5rem 2rem 0;
   height: 150vh;
 
+  .modal-backdrop{
+    position: relative !important;
+   
+   }
+
   p {
     font-size: 1.5rem;
     line-height: 1.5;
