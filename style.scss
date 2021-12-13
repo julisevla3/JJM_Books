@@ -183,7 +183,15 @@ html {
 
     }
 
-
+@media(max-width: 991px) {
+        
+    #livros-content{
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+    }
 
 
     .jjm {
@@ -250,6 +258,8 @@ html {
     }
 }
   
+
+
 
 
     .icones {
